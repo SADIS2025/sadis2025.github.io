@@ -1,0 +1,24 @@
+.timeline {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.event {
+    background: rgba(33, 48, 94, 0.74);
+    padding: 10px;
+    border-top: 4px solid #007bff;
+    min-width: 150px;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+}
+.date {
+    font-weight: bold;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateX(10px); }
+    to { opacity: 1; transform: translateX(0); }
+}
