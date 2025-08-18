@@ -4,8 +4,8 @@
     gap: 20px;
     padding: 20px;
     max-width: 100%;
-    overflow-x: auto;
-    white-space: nowrap;
+    overflow-x: scroll;
+
 }
 .event {
     background: rgba(33, 48, 94, 0.74);
